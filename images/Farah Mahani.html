@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>مشروع تصميم واجهة</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #070f2b;
+            color: #ffffff;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1b263b;
+            padding: 15px 50px;
+            border-bottom: 2px solid #415a77;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: bold;
+            background: #fff;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #00b4d8;
+            border-bottom: 2px solid #00b4d8;
+            padding-bottom: 3px;
+        }
+
+        .hero-section {
+            padding: 50px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #121e31;
+            border: 1px solid #1d355;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 85%;
+            background-color: #111e38;
+            padding: 40px;
+            border-radius: 10px;
+            border: 1px solid #1d3557%;
+            margin: 30px auto;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #b0c4de;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #00b4d8;
+            color: #000;
+            border: 1px solid #ffffff;
+        }
+
+        .hero-image img {
+            width: 300px;
+            border: 2px solid #1d3557;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .hero-image img:hover {
+            opacity: 0.85;
+        }
+
+        .services-section {
+            display: flex;
+            justify-content: center;
+            padding: 20px 20px 50px 20px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-between;
+            width: 85%;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #111e38;
+            border: 1px solid #1d3557;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: 32%;
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border:2px soild #00b4d8;
+            border-radius: 50%;
+            background-color:#1b263b;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #b0c4de;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <nav class="logo">N</nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome to the Future</h1>
+                <p>Experience the cutting-edge interface and sleek design to transform your digital experience. Sharp, translucent, and beautifully interactive.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="1.jpg" alt="Future Technology">
+            </div>
+        </div>
+    </header>
+
+    <section class="services-section">
+        <div class="services-container">
+            
+            <div class="card">
+                <img src="4.jpg" alt="Feature STAR">
+                <h3>Feature STAR</h3>
+                <p>Get unique visual effects with absolute clarity and shape your creative vision.</p>
+            </div>
+
+            <div class="card">
+                <img src="2.jpg" alt="Fast & Secure">
+                <h3>Fast & Secure</h3>
+                <p>Optimized architecture that delivers results quickly and ensures secure business transactions.</p>
+            </div>
+
+            <div class="card">
+                <img src="3.jpg.jpg" alt="Innovate">
+                <h3>Innovate</h3>
+                <p>Fully responsive designs that adapt to all screens to establish a solid presence.</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

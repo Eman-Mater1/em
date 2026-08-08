@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containor"></div>
+    <h1>My first form</h1>
+    <form action="" method="post"></form>
+    <div>
+        <label for="First_Name">First Name: </label>
+        <input type="text" placeholder="first name" required />
+    </div>
+    <label for="Last_Name">Last Name</label>
+    <input type="text" placeholder="last name" />
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" placeholder="email" />
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="Password" placeholder="Password" />
+    </div>
+    <div>
+        <label for="Confirm" name="Confrim Password">Confirm Password: </label>
+        <input type="password" placeholder="confirm password">
+    </div>
+    <div>
+        <label for="Age">Age: </label>
+        <input type="number" placeholder="age" />
+    </div>
+    <div>
+        <label for="DOB">DOB</label>
+        <input type="date" placeholder="date of birth" />
+    </div>
+    <div>
+        <label for="gender_identity" id="gender_identity">Enter your gender:
+        </label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="not" />
+        <label for="not">not yet</label>
+    </div>
+
+    <div>
+        <label for="Planguages">Enter your favorite Programming language</label>
+        <select id="Planguages">
+            <option value="java">java</option>
+            <option value="python">python</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+        </select>
+    </div>
+    <div></div>
+    <textarea name="comment" id="comment" cols="30" rows="3">
+    Enter your comment</textarea>
+    <div></div>
+    <div>
+        <input type="checkbox" name="apprve" id="approve" />
+        <label for="apporove">I am agree with my information</label>
+    </div>
+    <button>submit</button>
+    </form>
+    <div class="container">
+    </div>
+</body>
+
+</html>
